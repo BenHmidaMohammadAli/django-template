@@ -79,6 +79,8 @@ WSGI_APPLICATION = 'core.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+from dotenv import load_dotenv
+load_dotenv()
 
 DATABASES = {
     'default': {
